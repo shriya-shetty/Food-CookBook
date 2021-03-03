@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Favourite Page"
+        android:icon="@drawable/ic_baseline_favorite_24"
+        android:id="@+id/favouritemenu"
+        app:showAsAction="always">
+    </item>
+    <item
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        android:id="@+id/searchmenu"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView">
+
+    </item>
+</menu>
